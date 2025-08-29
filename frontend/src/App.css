@@ -1,0 +1,124 @@
+.menu {
+}
+
+.para {
+  border: 1px solid rgb(221, 223, 221);
+  margin-left: 4px;
+  margin-right: 4px;
+
+  font-size: small;
+  font-weight: bolder;
+  margin-top: 120px;
+}
+.bank {
+  width: 50%;
+}
+.user:hover {
+  background: white;
+}
+.navbar {
+  position: fixed;
+  box-shadow: 10px 0px 10px gray;
+}
+.dropdown {
+  position: static;
+}
+sup {
+  position: static;
+}
+.mar {
+  box-shadow: 10px 5px 10px rgb(216, 215, 215);
+}
+
+.bor {
+  border: 1px solid rgb(214, 214, 217);
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+  box-shadow: 2px 3px 4px black;
+}
+
+.bor input {
+  border: 1px solid grey;
+}
+.bnkinfo {
+  margin-left: 20px;
+  box-shadow: 4px 8px 10px grey;
+}
+.bnkinfo p {
+  color: green;
+  margin-top: 5px;
+}
+.bnkinfo span {
+  color: black;
+  font-weight: 600;
+}
+
+.inp {
+  border: 1px solid grey;
+  display: flex;
+  margin-top: 4px;
+}
+.imgl {
+  height: 50px;
+}
+.ceoimg {
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+}
+
+.br {
+  border: 0.2px solid gray;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.boxs {
+  display: flex;
+  justify-content: center;
+
+  padding: 20px;
+  border: 1px solid black;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 50px;
+}
+.EMAIL {
+  margin-top: 5px;
+}
+.act {
+  margin-top: 150px;
+}
+.userss {
+  border: 1px solid gray;
+  border-radius: 10px;
+  width: 50%;
+  margin-top: 120px;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.saving{
+  display: flex;
+  justify-content: center;
+  
+  
+}
+.saving img{
+  height: 300px;
+  margin-top: 30px;
+}
+.feat{
+  
+}
+.uls{
+
+ margin-left: 400px;
+ margin-top: 20px;
+ 
+}
+.openac{
+ 
+ 
+}

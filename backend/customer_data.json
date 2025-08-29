@@ -1,0 +1,42 @@
+[
+  {
+    "Name": "RAM PAL",
+    "A/C NO": "63546543212",
+    "IFSC CODE": "SBIN0987",
+    "BRANCH": "ASHOK NAGAR NASHIK ",
+    "A/C TYPE": "SAVING A/C",
+    "AMOUNT": " 90000"
+  },
+  {
+    "Name": "SHUBHAM PAL",
+    "A/C NO": "90876543212",
+    "IFSC CODE": "SBIN0987",
+    "BRANCH": "ASHOK NAGAR NASHIK ",
+    "A/C TYPE": "SAVING A/C",
+    "AMOUNT": " 890000"
+  },
+  {
+    "Name": "SUNNY YADAV",
+    "A/C NO": "11224455212",
+    "IFSC CODE": "SBIN0987",
+    "BRANCH": "LALGANJ AZAMGARH ",
+    "A/C TYPE": "CURRENT A/C",
+    "AMOUNT": " 123,89,0000"
+  },
+  {
+    "Name": "YUVRAJ SINGH",
+    "A/C NO": "90866543212",
+    "IFSC CODE": "SBIN0987",
+    "BRANCH": "GANGAPUR NASHIK ",
+    "A/C TYPE": "SAVING A/C",
+    "AMOUNT": " 8970000"
+  },
+  {
+    "Name": "SHUBHAM PAL",
+    "A/C NO": "87906543212",
+    "IFSC CODE": "SBIN0987",
+    "BRANCH": "PANCHAVATI NASHIK ",
+    "A/C TYPE": "TINY A/C",
+    "AMOUNT": " 0 "
+  }
+]
