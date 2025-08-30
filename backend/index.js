@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 // Serve static files from uploads directory
 app.use('/uploads', express.static('uploads'));
 
-const PORT = 9006; // Updated port to 9006
+const PORT = process.env.PORT || 9006;
 const URI = process.env.MongoDBURI || 'mongodb://localhost:27017/sbi';
 
 // Test endpoint with detailed response
@@ -96,9 +96,12 @@ app.use((err, req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  
-  res.send('Welcome to the SBI MERN Admin Backend');
-
+  res.json({
+    message: 'Welcome to the SBI MERN Admin Backend',
+    activeStatus: true,
+    error: false,
+    timestamp: new Date().toISOString()
+  });
 })
 
 // Start server with error handling
