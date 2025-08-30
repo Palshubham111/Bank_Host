@@ -95,6 +95,12 @@ app.use((err, req, res, next) => {
   res.status(500).json({ message: 'Internal Server Error' });
 });
 
+app.get('/', (req, res) => {
+  
+  res.send('Welcome to the SBI MERN Admin Backend');
+
+})
+
 // Start server with error handling
 const server = app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on http://localhost:${PORT}`);
