@@ -87,12 +87,7 @@ app.use('/user', userRoutes);
 // 404 handler with detailed response
 app.use((req, res) => {
   res.status(404).json({ message: '404 - API Endpoint Not Found' });
-});
 
-// Error handling middleware with detailed logging
-app.use((err, req, res, next) => {
-  console.error('Error:', err.message);
-  res.status(500).json({ message: 'Internal Server Error' });
 });
 
 app.get('/', (req, res) => {
@@ -103,6 +98,14 @@ app.get('/', (req, res) => {
   })
 
 })
+
+// Error handling middleware with detailed logging
+app.use((err, req, res, next) => {
+  console.error('Error:', err.message);
+  res.status(500).json({ message: 'Internal Server Error' });
+});
+
+
 
 // Start server with error handling
 const server = app.listen(PORT, '0.0.0.0', () => {
