@@ -27,7 +27,7 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 // Serve static files from uploads directory
 app.use('/uploads', express.static('uploads'));
 
-const PORT = 9006; // Updated port to 9006
+const PORT = process.env.PORT || 9006;
 const URI = process.env.MongoDBURI || 'mongodb://localhost:27017/sbi';
 
 // Test endpoint with detailed response
@@ -94,6 +94,15 @@ app.use((err, req, res, next) => {
   console.error('Error:', err.message);
   res.status(500).json({ message: 'Internal Server Error' });
 });
+
+app.get('/', (req, res) => {
+
+  res.send({
+    activestatus:true,
+    error:false,
+  })
+
+})
 
 // Start server with error handling
 const server = app.listen(PORT, '0.0.0.0', () => {
