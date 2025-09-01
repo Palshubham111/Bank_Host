@@ -96,12 +96,12 @@ app.use((err, req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.json({
-    message: 'Welcome to the SBI MERN Admin Backend',
-    activeStatus: true,
-    error: false,
-    timestamp: new Date().toISOString()
-  });
+
+  res.send({
+    activestatus:true,
+    error:false,
+  })
+
 })
 
 // Start server with error handling
